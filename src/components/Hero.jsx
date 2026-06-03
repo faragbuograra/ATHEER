@@ -13,6 +13,8 @@ const Hero = () => {
         loop
         muted
         playsInline
+        preload="none"
+        poster="/logo.png"
       />
       
    
@@ -21,7 +23,7 @@ const Hero = () => {
         
         <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left text-white mt-16 md:mt-0">
            <div className="flex-1 flex justify-center md:justify-end mt-12 md:mt-0 opacity-90 drop-shadow-2xl">
-          <img src="/logo.png" alt="Atheer Shipping Logo" className="w-[280px] md:w-[400px] lg:w-[450px] object-contain brightness-0 invert drop-shadow-[0_0_25px_rgba(255,255,255,0.2)]" />
+          <img src="/logo.png" alt="Atheer Shipping Logo" className="w-[280px] md:w-[400px] lg:w-[450px] object-contain brightness-0 invert drop-shadow-[0_0_25px_rgba(255,255,255,0.2)]" fetchpriority="high" />
         </div>
         </div>
 

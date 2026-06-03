@@ -34,6 +34,7 @@ const Routes = () => {
                 src="/0000.png"
                 alt="Libyan Port"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                loading="lazy"
               />
               {/* gradient fade into right panel */}
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-primary-900/60 hidden lg:block" />
@@ -55,6 +56,7 @@ const Routes = () => {
                     src="/ports.png"
                     alt="Libyan Ports Map"
                     className="w-full h-auto object-contain transition-transform duration-700 hover:scale-105"
+                    loading="lazy"
                   />
                 </div>
               </div>
