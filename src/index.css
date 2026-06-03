@@ -15,3 +15,73 @@
 .clip-slanted-bottom {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%, 0 90%);
 }
+
+/* ── Loading screen animations ── */
+
+@keyframes waveSlide1 {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes waveSlide2 {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+@keyframes anchorBob {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-9px); }
+}
+
+@keyframes logoGlow {
+  0%, 100% { opacity: 0.12; transform: scale(1.4); }
+  50%       { opacity: 0.28; transform: scale(1.7); }
+}
+
+@keyframes dotPulse {
+  0%, 100% { opacity: 0.2; transform: scale(0.75); }
+  50%       { opacity: 1;   transform: scale(1.25); }
+}
+
+@keyframes shimmerSlide {
+  0%   { opacity: 0; }
+  50%  { opacity: 0.6; }
+  100% { opacity: 0; }
+}
+
+.loading-wave-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: waveSlide1 7s linear infinite;
+}
+
+.loading-wave-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: waveSlide2 10s linear infinite;
+}
+
+.loading-anchor-bob {
+  animation: anchorBob 2.8s ease-in-out infinite;
+}
+
+.loading-logo-glow {
+  opacity: 0.15;
+  transform: scale(1.5);
+  animation: logoGlow 3.5s ease-in-out infinite;
+}
+
+.loading-dot {
+  animation: dotPulse 1.5s ease-in-out infinite;
+}
+
+.loading-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(0,173,239,0.8), transparent);
+  animation: shimmerSlide 0.9s ease-in-out infinite;
+}
