@@ -72,10 +72,7 @@ export default function LoadingScreen({ onComplete }) {
 
       {/* Top glow bar */}
       <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#00adef] to-transparent opacity-70" />
-
-      {/* Animated ocean waves */}
      
-
       {/* Main content */}
       <div
         className="relative z-10 flex flex-col items-center"
