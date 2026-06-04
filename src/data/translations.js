@@ -168,7 +168,7 @@ export const translations = {
           activities: "بضائع عامة، حاويات، بضائع صب، نفط"
         },
         {
-          name: "ميناء بنغازي",
+          name: "ميناء طرابلس",
           coords: "خط العرض 32°54'N، خط الطول 13°10'E",
           code: "LYTIP",
           draft: "9.50 متر",
@@ -284,7 +284,7 @@ export const translations = {
         send: "إرسال الرسالة",
       },
       info: {
-        address: "بنغازي، ليبيا",
+        address: "طرابلس، ليبيا",
         phone: "+218 21 XXX XXXX",
         email: "info@atheer-shipping.ly",
         hours: "الأحد – الخميس، 8:00 ص – 5:00 م",
@@ -476,7 +476,7 @@ export const translations = {
           activities: "General cargo, containers, bulk cargo, oil"
         },
         {
-          name: "benghazi Port",
+          name: "Tripoli Port",
           coords: "Latitude 32°54’N, Longitude 13°10’E",
           code: "LYTIP",
           draft: "9.50 meters",
@@ -592,7 +592,7 @@ export const translations = {
         send: "Send Message",
       },
       info: {
-        address: "benghazi, Libya",
+        address: "Tripoli, Libya",
         phone: "+218 21 XXX XXXX",
         email: "info@atheer-shipping.ly",
         hours: "Sun – Thu, 8:00 AM – 5:00 PM",
