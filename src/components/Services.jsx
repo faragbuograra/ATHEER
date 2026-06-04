@@ -7,7 +7,7 @@ const INITIAL_COUNT = 6;
 
 export default function Services() {
   const { lang: language, t } = useLanguage();
-  const [showAll, setShowAll] = useState(false);
+  const [showAll, setShowAll] = useState(true);
 
   const isRtl = language === 'ar';
   const ChevronIcon = isRtl ? ChevronLeft : ChevronRight;
@@ -89,7 +89,7 @@ export default function Services() {
                 <p className="text-gray-800 text-[15px] mb-8 line-clamp-4 leading-[1.9]">
                   {t.featured[item.id].desc}
                 </p>
-                <div className="mt-auto pb-4">
+                {/* <div className="mt-auto pb-4">
                   <a href={item.link} className="relative inline-flex group">
                     <div className="absolute inset-0 border border-primary-300 -skew-x-[18deg] group-hover:bg-primary-300 transition-colors duration-300" />
                     <span className="relative flex items-center justify-center gap-3 px-8 py-[10px] text-primary-300 font-bold uppercase tracking-wider group-hover:text-white transition-colors duration-300">
@@ -97,7 +97,7 @@ export default function Services() {
                       <ChevronIcon className="w-4 h-4" strokeWidth={3} />
                     </span>
                   </a>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           ))}

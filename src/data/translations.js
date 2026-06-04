@@ -9,7 +9,12 @@ export const translations = {
       about: "عن الشركة",
       services: "خدماتنا",
       ports: "الموانئ الليبية",
+      partners: "شركاؤنا",
       contact: "اتصل بنا",
+    },
+    partners: {
+      title: "شركاؤنا",
+      subtitle: "نفخر بشراكاتنا مع شركات رائدة عالمياً في مجال الشحن واللوجستيات.",
     },
     
     featured: {
@@ -312,7 +317,12 @@ export const translations = {
       about: "About Us",
       services: "Our Services",
       ports: "Libyan Ports",
+      partners: "Partners",
       contact: "Contact Us",
+    },
+    partners: {
+      title: "Our Partners",
+      subtitle: "We are proud to work alongside leading global companies in shipping and logistics.",
     },
     
     featured: {

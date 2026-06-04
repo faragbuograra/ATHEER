@@ -4,7 +4,7 @@ import { translations } from '../data/translations';
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [lang, setLang] = useState('ar');
+  const [lang, setLang] = useState('en');
 
   useEffect(() => {
     const savedLang = localStorage.getItem('amyal-lang');

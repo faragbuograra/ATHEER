@@ -6,9 +6,10 @@ import LoadingScreen from './components/LoadingScreen';
 const About = lazy(() => import('./components/About'));
 const Services = lazy(() => import('./components/Services'));
 const Routes = lazy(() => import('./components/Routes'));
+const Partners = lazy(() => import('./components/Partners'));
+const BunkerPrices = lazy(() => import('./components/BunkerPrices'));
 const Contact = lazy(() => import('./components/Contact'));
 const Footer = lazy(() => import('./components/Footer'));
-const BunkerPricesButton = lazy(() => import('./components/BunkerPricesButton'));
 
 function App() {
   const [ready, setReady] = useState(false);
@@ -29,9 +30,10 @@ function App() {
           <About />
           <Services />
           <Routes />
+          <Partners />
+          <BunkerPrices />
           <Contact />
           <Footer />
-          <BunkerPricesButton />
         </Suspense>
       </div>
     </>
